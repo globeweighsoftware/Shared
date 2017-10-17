@@ -1,0 +1,28 @@
+\\Draper2014\f\Backup Files\Data\Files\Hobson\
+
+Draper credentials
+user: neil.hobson
+pass: Password1
+
+Stephen Laptop Password:
+Spike235
+
+Attracta's TeamviewDetails (Clonakility)
+256279375
+aeh826
+
+Eaomon Greenhill
+086 825 7389
+
+
+
+
+Clickonce Application location
+
+C:\Users\Globeweigh\AppData\Local\Apps\2.0
+
+Clickonce Shortcut location
+
+C:\Users\Globeweigh\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+
+
