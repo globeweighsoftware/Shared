@@ -1,0 +1,8 @@
+open CMD (with Admin)
+type: 
+net users guest
+
+The sixth line down shows Account active and Yes or No
+
+type: 
+net users guest /active:yes
