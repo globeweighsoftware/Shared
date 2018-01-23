@@ -29,15 +29,15 @@ namespace WpfApplication1
 
         private void CreateDynamicDataTable()
         {
-            string constr1 = @"Provider=vfpoledb;Data Source=C:\Globeweigh\Clonakilty\OperaData;Extended Properties=dBASE III;";
+            string constr1 = @"Provider=vfpoledb;Data Source=\\172.20.10.25\Server VFP Static and Dynamic\data;Extended Properties=dBASE III;";
             using (OleDbConnection con = new OleDbConnection(constr1))
             {
                 con.Open();
                 //SalesOrders
-                //                OleDbCommand command =new OleDbCommand("Select * from 1_ITRAN.DBF where it_doc = '" + "DOC02129" + "'", con);
-//                                OleDbCommand command =new OleDbCommand("Select * from 1_CNAME.DBF", con);
-                                OleDbCommand command = new OleDbCommand(@"Select * from 1_IHEAD.DBF where ih_docstat = 'O' and ih_revord = 'A' and ih_deliv = ''", con);
-//                OleDbCommand command = new OleDbCommand(@"Select * from 1_IHEAD.DBF", con);
+//               OleDbCommand command =new OleDbCommand("Select * from 1_ITRAN.DBF where it_doc = '" + "DOC08215" + "'", con);
+//                OleDbCommand command = new OleDbCommand("Select * from 1_ITRAN.DBF where it_stock = '" + "B98" + "'", con);
+                OleDbCommand command = new OleDbCommand(@"Select * from 1_IHEAD.DBF where ih_docstat = 'O' and ih_deliv = ''", con);
+
                 OleDbDataReader reader = command.ExecuteReader();
                 DataTable dataTable = new DataTable();
                 dataTable.Load(reader);
