@@ -34,9 +34,10 @@ namespace WpfApplication1
             {
                 con.Open();
                 //SalesOrders
-//               OleDbCommand command =new OleDbCommand("Select * from 1_ITRAN.DBF where it_doc = '" + "DOC08215" + "'", con);
-//                OleDbCommand command = new OleDbCommand("Select * from 1_ITRAN.DBF where it_stock = '" + "B98" + "'", con);
-                OleDbCommand command = new OleDbCommand(@"Select * from 1_IHEAD.DBF where ih_docstat = 'O' and ih_deliv = ''", con);
+                //               OleDbCommand command =new OleDbCommand("Select * from 1_ITRAN.DBF where it_doc = '" + "DOC09541" + "'", con);
+                //                OleDbCommand command = new OleDbCommand("Select * from 1_ITRAN.DBF where it_stock = '" + "B98" + "'", con);
+//                                OleDbCommand command = new OleDbCommand(@"Select * from 1_IHEAD.DBF where ih_docstat = 'O' and ih_deliv = ''", con);
+                OleDbCommand command = new OleDbCommand(@"Select * from 1_IHEAD.DBF where ih_account = '0374'", con);
 
                 OleDbDataReader reader = command.ExecuteReader();
                 DataTable dataTable = new DataTable();
