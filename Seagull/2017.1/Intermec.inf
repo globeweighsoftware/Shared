@@ -1,0 +1,712 @@
+[Version]
+Signature="$Windows NT$"
+Class=Printer
+ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
+Provider="Seagull"
+DriverVer=10/19/2017,2017.1.0.0
+CatalogFile=Intermec.cat
+DriverIsolation=2
+
+[PrinterPackageInstallation.x86]
+PackageAware=TRUE
+
+[PrinterPackageInstallation.amd64]
+PackageAware=TRUE
+
+[SourceDisksNames]
+1="Seagull Drivers Disk",,,\Common
+2="Seagull Drivers Disk",,,\Common
+
+[SourceDisksNames.amd64]
+2="Seagull Drivers Disk",,,\x64
+
+[SourceDisksNames.x86]
+2="Seagull Drivers Disk",,,\Win32
+
+[SourceDisksFiles]
+cplSS_2017.1.0.0.ini=1
+cplSSenu_2017.1.0.0.chm=1
+Defaults[SS]_2017.1.0.0.sds=1
+dplSS_2017.1.0.0.ini=1
+dplSSenu_2017.1.0.0.chm=1
+eplSS_2017.1.0.0.ini=1
+eplSSenu_2017.1.0.0.chm=1
+idpSS_2017.1.0.0.ini=1
+idpSSenu_2017.1.0.0.chm=1
+iplSS_2017.1.0.0.ini=1
+iplSSenu_2017.1.0.0.chm=1
+neiSS_2017.1.0.0.ini=1
+neiSSenu_2017.1.0.0.chm=1
+Seagull_V3_ConfigDispatcher.dll=2
+Seagull_V3_NetMonDispatcher.dll=2
+Seagull_V3_PrintDispatcher.dll=2
+ss#base_2017.1.0.0.cab=2
+ss#base_2017.1.0.0.ddz=1
+ss#cpl_2017.1.0.0.cab=2
+ss#cpl_2017.1.0.0.ddz=1
+ss#dpl_2017.1.0.0.cab=2
+ss#dpl_2017.1.0.0.ddz=1
+ss#epl_2017.1.0.0.cab=2
+ss#epl_2017.1.0.0.ddz=1
+ss#idp_2017.1.0.0.cab=2
+ss#idp_2017.1.0.0.ddz=1
+ss#ipl_2017.1.0.0.cab=2
+ss#ipl_2017.1.0.0.ddz=1
+ss#nei_2017.1.0.0.cab=2
+ss#nei_2017.1.0.0.ddz=1
+
+[DestinationDirs]
+DefaultDestDir=66000
+
+[Manufacturer]
+"Intermec"=MODEL_INTERMEC,NTamd64
+
+[MODEL_INTERMEC]
+"EasyCoder 71 (203 dpi)"=EPL
+"EasyCoder 91 DT (203 dpi)"=EPL
+"EasyCoder 91 DT (300 dpi)"=EPL
+"EasyCoder 91 TT (203 dpi)"=EPL
+"EasyCoder 91 TT (300 dpi)"=EPL
+"EasyCoder 101 (150 dpi)"=IDP
+"EasyCoder 101 (203 dpi)"=IDP
+"EasyCoder 201 (150 dpi)"=IDP
+"EasyCoder 201 (203 dpi)"=IDP
+"EasyCoder 301 (203 dpi)"=IDP
+"EasyCoder 401 (203 dpi)"=IDP
+"EasyCoder 501 (203 dpi)"=IDP
+"EasyCoder 501 (300 dpi)"=IDP
+"EasyCoder 501 XP (305 dpi)"=IDP
+"EasyCoder 601 (203 dpi)"=IDP
+"EasyCoder 601 XP (305 dpi)"=IDP
+"EasyCoder 3240"=IPL
+"EasyCoder 3400C"=IPL
+"EasyCoder 3400D"=IPL
+"EasyCoder 3400E (203 dpi)"=IPL,LPTENUM\IntermecEasyCoder_345A75
+"EasyCoder 3400E (406 dpi)"=IPL,LPTENUM\IntermecEasyCoder_345B95
+"EasyCoder 3440"=IPL
+"EasyCoder 3440B"=IPL
+"EasyCoder 3600"=IPL
+"EasyCoder 3600B"=IPL
+"EasyCoder 4400C (152 dpi)"=IPL
+"EasyCoder 4400C (203 dpi)"=IPL
+"EasyCoder 4400D (203 dpi)"=IPL
+"EasyCoder 4406"=IPL
+"EasyCoder 4420"=IPL,LPTENUM\Intermec44202AAE
+"EasyCoder 4420"=IPL,LPTENUM\EasyCoder4420EED5
+"EasyCoder 4420B"=IPL,LPTENUM\Intermec44202AAE
+"EasyCoder 4420B"=IPL,LPTENUM\EasyCoder4420EED5
+"EasyCoder 4420E"=IPL,LPTENUM\IntermecEasyCoder_44F842
+"EasyCoder 4440"=IPL,LPTENUM\Intermec44408AAD
+"EasyCoder 4440"=IPL,LPTENUM\EasyCoder44404ED6
+"EasyCoder 4440B"=IPL,LPTENUM\Intermec44408AAD
+"EasyCoder 4440B"=IPL,LPTENUM\EasyCoder44404ED6
+"EasyCoder 4440E"=IPL,LPTENUM\IntermecEasyCoder_445841
+"EasyCoder 4830"=IPL
+"EasyCoder 4830B"=IPL
+"EasyCoder 7421"=IPL
+"EasyCoder 7421B"=IPL
+"EasyCoder 7422"=EPL
+"EasyCoder C4 (203 dpi)"=EPL
+"EasyCoder C4 (300 dpi)"=EPL
+"EasyCoder E4 (203 dpi)"=IDP
+"EasyCoder F2 (203 dpi)"=IDP,LPTENUM\IntermecF2FP7B72
+"EasyCoder F2 (203 dpi)"=IDP,USBPRINT\IntermecF2FP7B72
+"EasyCoder F4 (203 dpi)"=IDP,LPTENUM\IntermecF4FP7A92
+"EasyCoder F4 (203 dpi)"=IDP,USBPRINT\IntermecF4FP7A92
+"EasyCoder PC4 (203 dpi)"=EPL
+"EasyCoder PC4 (300 dpi)"=EPL
+"EasyCoder PC41"=IPL
+"EasyCoder PD4 (203 dpi)"=EPL
+"EasyCoder PD4 (300 dpi)"=EPL
+"EasyCoder PD41 (203 dpi) - DP"=IDP,LPTENUM\IntermecPD41(203)FPB24B
+"EasyCoder PD41 (203 dpi) - DP"=IDP,USBPRINT\IntermecPD41(203)FPB24B
+"EasyCoder PD41 (203 dpi) - ESim"=EPL,LPTENUM\Intermec_PD41(203)_E1EB9
+"EasyCoder PD41 (203 dpi) - ESim"=EPL,USBPRINT\Intermec_PD41(203)_E1EB9
+"EasyCoder PD41 (203 dpi) - IPL"=IPL,LPTENUM\IntermecPD41(203)IPLC1C1
+"EasyCoder PD41 (203 dpi) - IPL"=IPL,USBPRINT\IntermecPD41(203)IPLC1C1
+"EasyCoder PD41 (300 dpi) - DP"=IDP,LPTENUM\IntermecPD41(300)FP274A
+"EasyCoder PD41 (300 dpi) - DP"=IDP,USBPRINT\IntermecPD41(300)FP274A
+"EasyCoder PD41 (300 dpi) - ESim"=EPL,LPTENUM\Intermec_PD41(300)_E8E85
+"EasyCoder PD41 (300 dpi) - ESim"=EPL,USBPRINT\Intermec_PD41(300)_E8E85
+"EasyCoder PD41 (300 dpi) - IPL"=IPL,LPTENUM\IntermecPD41(300)IPL0197
+"EasyCoder PD41 (300 dpi) - IPL"=IPL,USBPRINT\IntermecPD41(300)IPL0197
+"EasyCoder PD42 (203 dpi) - DP"=IDP,LPTENUM\IntermecPD42(203)FPA70B
+"EasyCoder PD42 (203 dpi) - DP"=IDP,USBPRINT\IntermecPD42(203)FPA70B
+"EasyCoder PD42 (203 dpi) - ESim"=EPL,LPTENUM\IntermecPD42(203)ESI6B41
+"EasyCoder PD42 (203 dpi) - ESim"=EPL,USBPRINT\IntermecPD42(203)ESI6B41
+"EasyCoder PD42 (203 dpi) - IPL"=IPL,LPTENUM\IntermecPD42(203)IPL31D7
+"EasyCoder PD42 (203 dpi) - IPL"=IPL,USBPRINT\IntermecPD42(203)IPL31D7
+"EasyCoder PD42 (300 dpi) - DP"=IDP,LPTENUM\IntermecPD42(300)FP320A
+"EasyCoder PD42 (300 dpi) - DP"=IDP,USBPRINT\IntermecPD42(300)FP320A
+"EasyCoder PD42 (300 dpi) - ESim"=EPL,LPTENUM\IntermecPD42(300)ESI9480
+"EasyCoder PD42 (300 dpi) - ESim"=EPL,USBPRINT\IntermecPD42(300)ESI9480
+"EasyCoder PD42 (300 dpi) - IPL"=IPL,LPTENUM\IntermecPD42(300)IPLF183
+"EasyCoder PD42 (300 dpi) - IPL"=IPL,USBPRINT\IntermecPD42(300)IPLF183
+"EasyCoder PF2i (203 dpi) - DP"=IDP,LPTENUM\IntermecPF2i(203)FP80BC
+"EasyCoder PF2i (203 dpi) - DP"=IDP,USBPRINT\IntermecPF2i(203)FP80BC
+"EasyCoder PF2i (203 dpi) - IPL"=IPL,LPTENUM\IntermecPF2i(203)IPL45B2
+"EasyCoder PF2i (203 dpi) - IPL"=IPL,USBPRINT\IntermecPF2i(203)IPL45B2
+"EasyCoder PF4i (203 dpi) - DP"=IDP,LPTENUM\IntermecPF4i(203)FP2297
+"EasyCoder PF4i (203 dpi) - DP"=IDP,USBPRINT\IntermecPF4i(203)FP2297
+"EasyCoder PF4i (203 dpi) - IPL"=IPL,LPTENUM\IntermecPF4i(203)IPL5852
+"EasyCoder PF4i (203 dpi) - IPL"=IPL,USBPRINT\IntermecPF4i(203)IPL5852
+"EasyCoder PF4i (300 dpi) - DP"=IDP,LPTENUM\IntermecPF4i(300)FPB796
+"EasyCoder PF4i (300 dpi) - DP"=IDP,USBPRINT\IntermecPF4i(300)FPB796
+"EasyCoder PF4i (300 dpi) - IPL"=IPL,LPTENUM\IntermecPF4i(300)IPL9804
+"EasyCoder PF4i (300 dpi) - IPL"=IPL,USBPRINT\IntermecPF4i(300)IPL9804
+"EasyCoder PL4"=CPL
+"EasyCoder PM4i (203 dpi) - DP"=IDP,LPTENUM\IntermecPM4i(203)FP079F
+"EasyCoder PM4i (203 dpi) - DP"=IDP,USBPRINT\IntermecPM4i(203)FP079F
+"EasyCoder PM4i (203 dpi) - IPL"=IPL,LPTENUM\IntermecPM4i(203)IPL9E76
+"EasyCoder PM4i (203 dpi) - IPL"=IPL,USBPRINT\IntermecPM4i(203)IPL9E76
+"EasyCoder PM4i (300 dpi) - DP"=IDP,LPTENUM\IntermecPM4i(300)FP929E
+"EasyCoder PM4i (300 dpi) - DP"=IDP,USBPRINT\IntermecPM4i(300)FP929E
+"EasyCoder PM4i (300 dpi) - IPL"=IPL,LPTENUM\IntermecPM4i(300)IPL5E22
+"EasyCoder PM4i (300 dpi) - IPL"=IPL,USBPRINT\IntermecPM4i(300)IPL5E22
+"EasyCoder PM4i (406 dpi) - DP"=IDP,LPTENUM\IntermecPM4i(406)FPAD9F
+"EasyCoder PM4i (406 dpi) - DP"=IDP,USBPRINT\IntermecPM4i(406)FPAD9F
+"EasyCoder PM4i (406 dpi) - IPL"=IPL,LPTENUM\IntermecPM4i(406)IPL9EDC
+"EasyCoder PM4i (406 dpi) - IPL"=IPL,USBPRINT\IntermecPM4i(406)IPL9EDC
+"EasyCoder PX4i (203 dpi) - DP"=IDP,LPTENUM\IntermecPX4i(203)FP808E
+"EasyCoder PX4i (203 dpi) - DP"=IDP,USBPRINT\IntermecPX4i(203)FP808E
+"EasyCoder PX4i (203 dpi) - IPL"=IPL,LPTENUM\IntermecPX4i(203)IPL9233
+"EasyCoder PX4i (203 dpi) - IPL"=IPL,USBPRINT\IntermecPX4i(203)IPL9233
+"EasyCoder PX4i (300 dpi) - DP"=IDP,LPTENUM\IntermecPX4i(300)FP178F
+"EasyCoder PX4i (300 dpi) - DP"=IDP,USBPRINT\IntermecPX4i(300)FP178F
+"EasyCoder PX4i (300 dpi) - IPL"=IPL,LPTENUM\IntermecPX4i(300)IPL5267
+"EasyCoder PX4i (300 dpi) - IPL"=IPL,USBPRINT\IntermecPX4i(300)IPL5267
+"EasyCoder PX4i (406 dpi) - DP"=IDP,LPTENUM\IntermecPX4i(406)FP288E
+"EasyCoder PX4i (406 dpi) - DP"=IDP,USBPRINT\IntermecPX4i(406)FP288E
+"EasyCoder PX4i (406 dpi) - IPL"=IPL,LPTENUM\IntermecPX4i(406)IPL9299
+"EasyCoder PX4i (406 dpi) - IPL"=IPL,USBPRINT\IntermecPX4i(406)IPL9299
+"EasyCoder PX6i (203 dpi) - DP"=IDP,LPTENUM\IntermecPX6i(203)FPE297
+"EasyCoder PX6i (203 dpi) - DP"=IDP,USBPRINT\IntermecPX6i(203)FPE297
+"EasyCoder PX6i (203 dpi) - IPL"=IPL,LPTENUM\IntermecPX6i(203)IPL5892
+"EasyCoder PX6i (203 dpi) - IPL"=IPL,USBPRINT\IntermecPX6i(203)IPL5892
+"EasyCoder PX6i (300 dpi) - DP"=IDP,LPTENUM\IntermecPX6i(300)FP7796
+"EasyCoder PX6i (300 dpi) - DP"=IDP,USBPRINT\IntermecPX6i(300)FP7796
+"EasyCoder PX6i (300 dpi) - IPL"=IPL,LPTENUM\IntermecPX6i(300)IPL98C4
+"EasyCoder PX6i (300 dpi) - IPL"=IPL,USBPRINT\IntermecPX6i(300)IPL98C4
+"Intermec 3100"=DPL,LPTENUM\DatamaxAllegro80BF
+"Intermec 3100"=DPL,USBPRINT\DatamaxAllegro80BF
+"Intermec 3400A"=IPL
+"Intermec 3400B"=IPL
+"Intermec 4000 (152 dpi)"=DPL
+"Intermec 4000 (203 dpi)"=DPL,LPTENUM\DatamaxProdigy_Plus3C6C
+"Intermec 4000 (203 dpi)"=DPL,USBPRINT\DatamaxProdigy_Plus3C6C
+"Intermec 4100"=IPL
+"Intermec 4400B"=IPL
+"Intermec 4630"=IPL
+"Intermec 8635"=IPL
+"Intermec 8636"=IPL
+"Intermec 8637"=IPL
+"Intermec 8638"=IPL
+"Intermec 8646"=IPL
+"Intermec PA30 (203 dpi) - DP"=IDP,LPTENUM\IntermecPA30(203)FP9F3D
+"Intermec PA30 (203 dpi) - DP"=IDP,USBPRINT\IntermecPA30(203)FP9F3D
+"Intermec PA30 (203 dpi) - IPL"=IPL,LPTENUM\IntermecPA30(203)IPL276F
+"Intermec PA30 (203 dpi) - IPL"=IPL,USBPRINT\IntermecPA30(203)IPL276F
+"Intermec PA30 (300 dpi) - DP"=IDP,LPTENUM\IntermecPA30(300)FPCBBD
+"Intermec PA30 (300 dpi) - DP"=IDP,USBPRINT\IntermecPA30(300)FPCBBD
+"Intermec PA30 (300 dpi) - IPL"=IPL,LPTENUM\IntermecPA30(300)IPL853A
+"Intermec PA30 (300 dpi) - IPL"=IPL,USBPRINT\IntermecPA30(300)IPL853A
+"Intermec PB20"=NEI
+"Intermec PB21 (203 dpi) - DP"=IDP,USBPRINT\IntermecPB21(203)FPD580
+"Intermec PB21 (203 dpi) - ESC/P"=NEI,USBPRINT\IntermecPB21(203)ESCE4F6
+"Intermec PB21 (203 dpi) - IPL"=IPL,USBPRINT\IntermecPB21(203)IPL56E5
+"Intermec PB22 (203 dpi) - DP"=IDP,USBPRINT\IntermecPB22(203)FP60B8
+"Intermec PB22 (203 dpi) - ESC/P"=NEI,USBPRINT\IntermecPB22(203)ESCB903
+"Intermec PB22 (203 dpi) - IPL"=IPL,USBPRINT\IntermecPB22(203)IPL8651
+"Intermec PB31 (203 dpi) - DP"=IDP,USBPRINT\IntermecPB31(203)FP5C0C
+"Intermec PB31 (203 dpi) - ESC/P"=NEI,USBPRINT\IntermecPB31(203)ESC9F50
+"Intermec PB31 (203 dpi) - IPL"=IPL,USBPRINT\IntermecPB31(203)IPLF36D
+"Intermec PB32 (203 dpi) - DP"=IDP,USBPRINT\IntermecPB32(203)FP48B4
+"Intermec PB32 (203 dpi) - ESC/P"=NEI,USBPRINT\IntermecPB32(203)ESCBADF
+"Intermec PB32 (203 dpi) - IPL"=IPL,USBPRINT\IntermecPB32(203)IPL8379
+"Intermec PB40"=NEI
+"Intermec PB41"=NEI
+"Intermec PB42"=NEI,USBPRINT\IntermecPB42A1D2
+"Intermec PB50 (203 dpi) - DP"=IDP,USBPRINT\IntermecPB50(203)FPF167
+"Intermec PB50 (203 dpi) - ESC/P"=NEI,USBPRINT\IntermecPB50(203)ESCD35D
+"Intermec PB50 (203 dpi) - IPL"=IPL,USBPRINT\IntermecPB50(203)IPL1C81
+"Intermec PB51 (203 dpi) - DP"=IDP,USBPRINT\IntermecPB51(203)FPFC27
+"Intermec PB51 (203 dpi) - ESC/P"=NEI,USBPRINT\IntermecPB51(203)ESC9758
+"Intermec PB51 (203 dpi) - IPL"=IPL,USBPRINT\IntermecPB51(203)IPLEC8D
+"Intermec PC23d (203 dpi) - DP"=IDP,LPTENUM\Intermec_PC23-203-FPBDC6
+"Intermec PC23d (203 dpi) - DP"=IDP,USBPRINT\Intermec_PC23-203-FPBDC6
+"Intermec PC23d (203 dpi) - ESim"=EPL,LPTENUM\Intermec_PC23-203-FPBDC6
+"Intermec PC23d (203 dpi) - ESim"=EPL,USBPRINT\Intermec_PC23-203-FPBDC6
+"Intermec PC23d (203 dpi) - IPL"=IPL,LPTENUM\Intermec_PC23-203-FPBDC6
+"Intermec PC23d (203 dpi) - IPL"=IPL,USBPRINT\Intermec_PC23-203-FPBDC6
+"Intermec PC23d (300 dpi) - DP"=IDP,LPTENUM\Intermec_PC23-300-FP28C7
+"Intermec PC23d (300 dpi) - DP"=IDP,USBPRINT\Intermec_PC23-300-FP28C7
+"Intermec PC23d (300 dpi) - ESim"=EPL,LPTENUM\Intermec_PC23-300-FP28C7
+"Intermec PC23d (300 dpi) - ESim"=EPL,USBPRINT\Intermec_PC23-300-FP28C7
+"Intermec PC23d (300 dpi) - IPL"=IPL,LPTENUM\Intermec_PC23-300-FP28C7
+"Intermec PC23d (300 dpi) - IPL"=IPL,USBPRINT\Intermec_PC23-300-FP28C7
+"Intermec PC43d (203 dpi) - DP"=IDP,LPTENUM\Intermec_PC43d-203-F06E8
+"Intermec PC43d (203 dpi) - DP"=IDP,USBPRINT\Intermec_PC43d-203-F06E8
+"Intermec PC43d (203 dpi) - ESim"=EPL,LPTENUM\Intermec_PC43d-203-F06E8
+"Intermec PC43d (203 dpi) - ESim"=EPL,USBPRINT\Intermec_PC43d-203-F06E8
+"Intermec PC43d (203 dpi) - IPL"=IPL,LPTENUM\Intermec_PC43d-203-F06E8
+"Intermec PC43d (203 dpi) - IPL"=IPL,USBPRINT\Intermec_PC43d-203-F06E8
+"Intermec PC43d (300 dpi) - DP"=IDP,LPTENUM\Intermec_PC43d-300-F93E9
+"Intermec PC43d (300 dpi) - DP"=IDP,USBPRINT\Intermec_PC43d-300-F93E9
+"Intermec PC43d (300 dpi) - ESim"=EPL,LPTENUM\Intermec_PC43d-300-F93E9
+"Intermec PC43d (300 dpi) - ESim"=EPL,USBPRINT\Intermec_PC43d-300-F93E9
+"Intermec PC43d (300 dpi) - IPL"=IPL,LPTENUM\Intermec_PC43d-300-F93E9
+"Intermec PC43d (300 dpi) - IPL"=IPL,USBPRINT\Intermec_PC43d-300-F93E9
+"Intermec PC43t (203 dpi) - DP"=IDP,LPTENUM\Intermec_PC43t-203-FE8E8
+"Intermec PC43t (203 dpi) - DP"=IDP,USBPRINT\Intermec_PC43t-203-FE8E8
+"Intermec PC43t (203 dpi) - ESim"=EPL,LPTENUM\Intermec_PC43t-203-FE8E8
+"Intermec PC43t (203 dpi) - ESim"=EPL,USBPRINT\Intermec_PC43t-203-FE8E8
+"Intermec PC43t (203 dpi) - IPL"=IPL,LPTENUM\Intermec_PC43t-203-FE8E8
+"Intermec PC43t (203 dpi) - IPL"=IPL,USBPRINT\Intermec_PC43t-203-FE8E8
+"Intermec PC43t (300 dpi) - DP"=IDP,LPTENUM\Intermec_PC43t-300-FBD48
+"Intermec PC43t (300 dpi) - DP"=IDP,USBPRINT\Intermec_PC43t-300-FBD48
+"Intermec PC43t (300 dpi) - ESim"=EPL,LPTENUM\Intermec_PC43t-300-FBD48
+"Intermec PC43t (300 dpi) - ESim"=EPL,USBPRINT\Intermec_PC43t-300-FBD48
+"Intermec PC43t (300 dpi) - IPL"=IPL,LPTENUM\Intermec_PC43t-300-FBD48
+"Intermec PC43t (300 dpi) - IPL"=IPL,USBPRINT\Intermec_PC43t-300-FBD48
+"Intermec PD43 (203 dpi) - DP"=IDP,LPTENUM\Intermec_PD43-203-FP255D
+"Intermec PD43 (203 dpi) - DP"=IDP,USBPRINT\Intermec_PD43-203-FP255D
+"Intermec PD43 (203 dpi) - IPL"=IPL,LPTENUM\Intermec_PD43-203-IP0FD5
+"Intermec PD43 (203 dpi) - IPL"=IPL,USBPRINT\Intermec_PD43-203-IP0FD5
+"Intermec PD43 (300 dpi) - DP"=IDP,LPTENUM\Intermec_PD43-300-FP70FD
+"Intermec PD43 (300 dpi) - DP"=IDP,USBPRINT\Intermec_PD43-300-FP70FD
+"Intermec PD43 (300 dpi) - IPL"=IPL,LPTENUM\Intermec_PD43-300-IP7782
+"Intermec PD43 (300 dpi) - IPL"=IPL,USBPRINT\Intermec_PD43-300-IP7782
+"Intermec PD43c (203 dpi) - DP"=IDP,LPTENUM\Intermec_PD43c-203-FCEB3
+"Intermec PD43c (203 dpi) - DP"=IDP,USBPRINT\Intermec_PD43c-203-FCEB3
+"Intermec PD43c (203 dpi) - IPL"=IPL,LPTENUM\Intermec_PD43c-203-I41BE
+"Intermec PD43c (203 dpi) - IPL"=IPL,USBPRINT\Intermec_PD43c-203-I41BE
+"Intermec PD43c (300 dpi) - DP"=IDP,LPTENUM\Intermec_PD43c-300-F5BB2
+"Intermec PD43c (300 dpi) - DP"=IDP,USBPRINT\Intermec_PD43c-300-F5BB2
+"Intermec PD43c (300 dpi) - IPL"=IPL,LPTENUM\Intermec_PD43c-300-I81EA
+"Intermec PD43c (300 dpi) - IPL"=IPL,USBPRINT\Intermec_PD43c-300-I81EA
+"Intermec PF8d"=EPL,LPTENUM\Intermec_PF8d(203)_E2186
+"Intermec PF8d"=EPL,USBPRINT\Intermec_PF8d(203)_E2186
+"Intermec PF8t (203 dpi)"=EPL,LPTENUM\Intermec_PF8t(203)_EE1D0
+"Intermec PF8t (203 dpi)"=EPL,USBPRINT\Intermec_PF8t(203)_EE1D0
+"Intermec PF8t (300 dpi)"=EPL,LPTENUM\Intermec_PF8t(300)_E71EE
+"Intermec PF8t (300 dpi)"=EPL,USBPRINT\Intermec_PF8t(300)_E71EE
+"Intermec PM23c (203 dpi) - DP"=IDP,LPTENUM\Intermec_PM23c-203-F8D5E
+"Intermec PM23c (203 dpi) - DP"=IDP,USBPRINT\Intermec_PM23c-203-F8D5E
+"Intermec PM23c (203 dpi) - IPL"=IPL,LPTENUM\Intermec_PM23c-203-I0E3D
+"Intermec PM23c (203 dpi) - IPL"=IPL,USBPRINT\Intermec_PM23c-203-I0E3D
+"Intermec PM23c (300 dpi) - DP"=IDP,LPTENUM\Intermec_PM23c-300-F185F
+"Intermec PM23c (300 dpi) - DP"=IDP,USBPRINT\Intermec_PM23c-300-F185F
+"Intermec PM23c (300 dpi) - IPL"=IPL,LPTENUM\Intermec_PM23c-300-ICE69
+"Intermec PM23c (300 dpi) - IPL"=IPL,USBPRINT\Intermec_PM23c-300-ICE69
+"Intermec PM23c (406 dpi) - DP"=IDP,LPTENUM\Intermec_PM23c-406-F275E
+"Intermec PM23c (406 dpi) - DP"=IDP,USBPRINT\Intermec_PM23c-406-F275E
+"Intermec PM23c (406 dpi) - IPL"=IPL,LPTENUM\Intermec_PM23c-406-I0E97
+"Intermec PM23c (406 dpi) - IPL"=IPL,USBPRINT\Intermec_PM23c-406-I0E97
+"Intermec PM43 (203 dpi) - DP"=IDP,LPTENUM\Intermec_PM43-203-FP0A8D
+"Intermec PM43 (203 dpi) - DP"=IDP,USBPRINT\Intermec_PM43-203-FP0A8D
+"Intermec PM43 (203 dpi) - IPL"=IPL,LPTENUM\Intermec_PM43-203-IP93FB
+"Intermec PM43 (203 dpi) - IPL"=IPL,USBPRINT\Intermec_PM43-203-IP93FB
+"Intermec PM43 (300 dpi) - DP"=IDP,LPTENUM\Intermec_PM43-300-FP5E0D
+"Intermec PM43 (300 dpi) - DP"=IDP,USBPRINT\Intermec_PM43-300-FP5E0D
+"Intermec PM43 (300 dpi) - IPL"=IPL,LPTENUM\Intermec_PM43-300-IP33AE
+"Intermec PM43 (300 dpi) - IPL"=IPL,USBPRINT\Intermec_PM43-300-IP33AE
+"Intermec PM43 (406 dpi) - DP"=IDP,LPTENUM\Intermec_PM43-406-FPA08D
+"Intermec PM43 (406 dpi) - DP"=IDP,USBPRINT\Intermec_PM43-406-FPA08D
+"Intermec PM43 (406 dpi) - IPL"=IPL,LPTENUM\Intermec_PM43-406-IP9351
+"Intermec PM43 (406 dpi) - IPL"=IPL,USBPRINT\Intermec_PM43-406-IP9351
+"Intermec PM43c (203 dpi) - DP"=IDP,LPTENUM\Intermec_PM43c-203-F529D
+"Intermec PM43c (203 dpi) - DP"=IDP,USBPRINT\Intermec_PM43c-203-F529D
+"Intermec PM43c (203 dpi) - IPL"=IPL,LPTENUM\Intermec_PM43c-203-I5FA2
+"Intermec PM43c (203 dpi) - IPL"=IPL,USBPRINT\Intermec_PM43c-203-I5FA2
+"Intermec PM43c (300 dpi) - DP"=IDP,LPTENUM\Intermec_PM43c-300-FC79C
+"Intermec PM43c (300 dpi) - DP"=IDP,USBPRINT\Intermec_PM43c-300-FC79C
+"Intermec PM43c (300 dpi) - IPL"=IPL,LPTENUM\Intermec_PM43c-300-I9FF6
+"Intermec PM43c (300 dpi) - IPL"=IPL,USBPRINT\Intermec_PM43c-300-I9FF6
+"Intermec PM43c (406 dpi) - DP"=IDP,LPTENUM\Intermec_PM43c-406-FF89D
+"Intermec PM43c (406 dpi) - DP"=IDP,USBPRINT\Intermec_PM43c-406-FF89D
+"Intermec PM43c (406 dpi) - IPL"=IPL,LPTENUM\Intermec_PM43c-406-I5F08
+"Intermec PM43c (406 dpi) - IPL"=IPL,USBPRINT\Intermec_PM43c-406-I5F08
+"Intermec PR2"=NEI,USBPRINT\Intermec_PR2-203-ESCDB26
+"Intermec PR3"=NEI,USBPRINT\Intermec_PR3-203-ESC1E77
+"Intermec PW50 (203 dpi) - ESC/P"=NEI,USBPRINT\IntermecPW50(203)ESC266E
+
+[MODEL_INTERMEC.NTamd64]
+"EasyCoder 71 (203 dpi)"=EPL
+"EasyCoder 91 DT (203 dpi)"=EPL
+"EasyCoder 91 DT (300 dpi)"=EPL
+"EasyCoder 91 TT (203 dpi)"=EPL
+"EasyCoder 91 TT (300 dpi)"=EPL
+"EasyCoder 101 (150 dpi)"=IDP
+"EasyCoder 101 (203 dpi)"=IDP
+"EasyCoder 201 (150 dpi)"=IDP
+"EasyCoder 201 (203 dpi)"=IDP
+"EasyCoder 301 (203 dpi)"=IDP
+"EasyCoder 401 (203 dpi)"=IDP
+"EasyCoder 501 (203 dpi)"=IDP
+"EasyCoder 501 (300 dpi)"=IDP
+"EasyCoder 501 XP (305 dpi)"=IDP
+"EasyCoder 601 (203 dpi)"=IDP
+"EasyCoder 601 XP (305 dpi)"=IDP
+"EasyCoder 3240"=IPL
+"EasyCoder 3400C"=IPL
+"EasyCoder 3400D"=IPL
+"EasyCoder 3400E (203 dpi)"=IPL,LPTENUM\IntermecEasyCoder_345A75
+"EasyCoder 3400E (406 dpi)"=IPL,LPTENUM\IntermecEasyCoder_345B95
+"EasyCoder 3440"=IPL
+"EasyCoder 3440B"=IPL
+"EasyCoder 3600"=IPL
+"EasyCoder 3600B"=IPL
+"EasyCoder 4400C (152 dpi)"=IPL
+"EasyCoder 4400C (203 dpi)"=IPL
+"EasyCoder 4400D (203 dpi)"=IPL
+"EasyCoder 4406"=IPL
+"EasyCoder 4420"=IPL,LPTENUM\Intermec44202AAE
+"EasyCoder 4420"=IPL,LPTENUM\EasyCoder4420EED5
+"EasyCoder 4420B"=IPL,LPTENUM\Intermec44202AAE
+"EasyCoder 4420B"=IPL,LPTENUM\EasyCoder4420EED5
+"EasyCoder 4420E"=IPL,LPTENUM\IntermecEasyCoder_44F842
+"EasyCoder 4440"=IPL,LPTENUM\Intermec44408AAD
+"EasyCoder 4440"=IPL,LPTENUM\EasyCoder44404ED6
+"EasyCoder 4440B"=IPL,LPTENUM\Intermec44408AAD
+"EasyCoder 4440B"=IPL,LPTENUM\EasyCoder44404ED6
+"EasyCoder 4440E"=IPL,LPTENUM\IntermecEasyCoder_445841
+"EasyCoder 4830"=IPL
+"EasyCoder 4830B"=IPL
+"EasyCoder 7421"=IPL
+"EasyCoder 7421B"=IPL
+"EasyCoder 7422"=EPL
+"EasyCoder C4 (203 dpi)"=EPL
+"EasyCoder C4 (300 dpi)"=EPL
+"EasyCoder E4 (203 dpi)"=IDP
+"EasyCoder F2 (203 dpi)"=IDP,LPTENUM\IntermecF2FP7B72
+"EasyCoder F2 (203 dpi)"=IDP,USBPRINT\IntermecF2FP7B72
+"EasyCoder F4 (203 dpi)"=IDP,LPTENUM\IntermecF4FP7A92
+"EasyCoder F4 (203 dpi)"=IDP,USBPRINT\IntermecF4FP7A92
+"EasyCoder PC4 (203 dpi)"=EPL
+"EasyCoder PC4 (300 dpi)"=EPL
+"EasyCoder PC41"=IPL
+"EasyCoder PD4 (203 dpi)"=EPL
+"EasyCoder PD4 (300 dpi)"=EPL
+"EasyCoder PD41 (203 dpi) - DP"=IDP,LPTENUM\IntermecPD41(203)FPB24B
+"EasyCoder PD41 (203 dpi) - DP"=IDP,USBPRINT\IntermecPD41(203)FPB24B
+"EasyCoder PD41 (203 dpi) - ESim"=EPL,LPTENUM\Intermec_PD41(203)_E1EB9
+"EasyCoder PD41 (203 dpi) - ESim"=EPL,USBPRINT\Intermec_PD41(203)_E1EB9
+"EasyCoder PD41 (203 dpi) - IPL"=IPL,LPTENUM\IntermecPD41(203)IPLC1C1
+"EasyCoder PD41 (203 dpi) - IPL"=IPL,USBPRINT\IntermecPD41(203)IPLC1C1
+"EasyCoder PD41 (300 dpi) - DP"=IDP,LPTENUM\IntermecPD41(300)FP274A
+"EasyCoder PD41 (300 dpi) - DP"=IDP,USBPRINT\IntermecPD41(300)FP274A
+"EasyCoder PD41 (300 dpi) - ESim"=EPL,LPTENUM\Intermec_PD41(300)_E8E85
+"EasyCoder PD41 (300 dpi) - ESim"=EPL,USBPRINT\Intermec_PD41(300)_E8E85
+"EasyCoder PD41 (300 dpi) - IPL"=IPL,LPTENUM\IntermecPD41(300)IPL0197
+"EasyCoder PD41 (300 dpi) - IPL"=IPL,USBPRINT\IntermecPD41(300)IPL0197
+"EasyCoder PD42 (203 dpi) - DP"=IDP,LPTENUM\IntermecPD42(203)FPA70B
+"EasyCoder PD42 (203 dpi) - DP"=IDP,USBPRINT\IntermecPD42(203)FPA70B
+"EasyCoder PD42 (203 dpi) - ESim"=EPL,LPTENUM\IntermecPD42(203)ESI6B41
+"EasyCoder PD42 (203 dpi) - ESim"=EPL,USBPRINT\IntermecPD42(203)ESI6B41
+"EasyCoder PD42 (203 dpi) - IPL"=IPL,LPTENUM\IntermecPD42(203)IPL31D7
+"EasyCoder PD42 (203 dpi) - IPL"=IPL,USBPRINT\IntermecPD42(203)IPL31D7
+"EasyCoder PD42 (300 dpi) - DP"=IDP,LPTENUM\IntermecPD42(300)FP320A
+"EasyCoder PD42 (300 dpi) - DP"=IDP,USBPRINT\IntermecPD42(300)FP320A
+"EasyCoder PD42 (300 dpi) - ESim"=EPL,LPTENUM\IntermecPD42(300)ESI9480
+"EasyCoder PD42 (300 dpi) - ESim"=EPL,USBPRINT\IntermecPD42(300)ESI9480
+"EasyCoder PD42 (300 dpi) - IPL"=IPL,LPTENUM\IntermecPD42(300)IPLF183
+"EasyCoder PD42 (300 dpi) - IPL"=IPL,USBPRINT\IntermecPD42(300)IPLF183
+"EasyCoder PF2i (203 dpi) - DP"=IDP,LPTENUM\IntermecPF2i(203)FP80BC
+"EasyCoder PF2i (203 dpi) - DP"=IDP,USBPRINT\IntermecPF2i(203)FP80BC
+"EasyCoder PF2i (203 dpi) - IPL"=IPL,LPTENUM\IntermecPF2i(203)IPL45B2
+"EasyCoder PF2i (203 dpi) - IPL"=IPL,USBPRINT\IntermecPF2i(203)IPL45B2
+"EasyCoder PF4i (203 dpi) - DP"=IDP,LPTENUM\IntermecPF4i(203)FP2297
+"EasyCoder PF4i (203 dpi) - DP"=IDP,USBPRINT\IntermecPF4i(203)FP2297
+"EasyCoder PF4i (203 dpi) - IPL"=IPL,LPTENUM\IntermecPF4i(203)IPL5852
+"EasyCoder PF4i (203 dpi) - IPL"=IPL,USBPRINT\IntermecPF4i(203)IPL5852
+"EasyCoder PF4i (300 dpi) - DP"=IDP,LPTENUM\IntermecPF4i(300)FPB796
+"EasyCoder PF4i (300 dpi) - DP"=IDP,USBPRINT\IntermecPF4i(300)FPB796
+"EasyCoder PF4i (300 dpi) - IPL"=IPL,LPTENUM\IntermecPF4i(300)IPL9804
+"EasyCoder PF4i (300 dpi) - IPL"=IPL,USBPRINT\IntermecPF4i(300)IPL9804
+"EasyCoder PL4"=CPL
+"EasyCoder PM4i (203 dpi) - DP"=IDP,LPTENUM\IntermecPM4i(203)FP079F
+"EasyCoder PM4i (203 dpi) - DP"=IDP,USBPRINT\IntermecPM4i(203)FP079F
+"EasyCoder PM4i (203 dpi) - IPL"=IPL,LPTENUM\IntermecPM4i(203)IPL9E76
+"EasyCoder PM4i (203 dpi) - IPL"=IPL,USBPRINT\IntermecPM4i(203)IPL9E76
+"EasyCoder PM4i (300 dpi) - DP"=IDP,LPTENUM\IntermecPM4i(300)FP929E
+"EasyCoder PM4i (300 dpi) - DP"=IDP,USBPRINT\IntermecPM4i(300)FP929E
+"EasyCoder PM4i (300 dpi) - IPL"=IPL,LPTENUM\IntermecPM4i(300)IPL5E22
+"EasyCoder PM4i (300 dpi) - IPL"=IPL,USBPRINT\IntermecPM4i(300)IPL5E22
+"EasyCoder PM4i (406 dpi) - DP"=IDP,LPTENUM\IntermecPM4i(406)FPAD9F
+"EasyCoder PM4i (406 dpi) - DP"=IDP,USBPRINT\IntermecPM4i(406)FPAD9F
+"EasyCoder PM4i (406 dpi) - IPL"=IPL,LPTENUM\IntermecPM4i(406)IPL9EDC
+"EasyCoder PM4i (406 dpi) - IPL"=IPL,USBPRINT\IntermecPM4i(406)IPL9EDC
+"EasyCoder PX4i (203 dpi) - DP"=IDP,LPTENUM\IntermecPX4i(203)FP808E
+"EasyCoder PX4i (203 dpi) - DP"=IDP,USBPRINT\IntermecPX4i(203)FP808E
+"EasyCoder PX4i (203 dpi) - IPL"=IPL,LPTENUM\IntermecPX4i(203)IPL9233
+"EasyCoder PX4i (203 dpi) - IPL"=IPL,USBPRINT\IntermecPX4i(203)IPL9233
+"EasyCoder PX4i (300 dpi) - DP"=IDP,LPTENUM\IntermecPX4i(300)FP178F
+"EasyCoder PX4i (300 dpi) - DP"=IDP,USBPRINT\IntermecPX4i(300)FP178F
+"EasyCoder PX4i (300 dpi) - IPL"=IPL,LPTENUM\IntermecPX4i(300)IPL5267
+"EasyCoder PX4i (300 dpi) - IPL"=IPL,USBPRINT\IntermecPX4i(300)IPL5267
+"EasyCoder PX4i (406 dpi) - DP"=IDP,LPTENUM\IntermecPX4i(406)FP288E
+"EasyCoder PX4i (406 dpi) - DP"=IDP,USBPRINT\IntermecPX4i(406)FP288E
+"EasyCoder PX4i (406 dpi) - IPL"=IPL,LPTENUM\IntermecPX4i(406)IPL9299
+"EasyCoder PX4i (406 dpi) - IPL"=IPL,USBPRINT\IntermecPX4i(406)IPL9299
+"EasyCoder PX6i (203 dpi) - DP"=IDP,LPTENUM\IntermecPX6i(203)FPE297
+"EasyCoder PX6i (203 dpi) - DP"=IDP,USBPRINT\IntermecPX6i(203)FPE297
+"EasyCoder PX6i (203 dpi) - IPL"=IPL,LPTENUM\IntermecPX6i(203)IPL5892
+"EasyCoder PX6i (203 dpi) - IPL"=IPL,USBPRINT\IntermecPX6i(203)IPL5892
+"EasyCoder PX6i (300 dpi) - DP"=IDP,LPTENUM\IntermecPX6i(300)FP7796
+"EasyCoder PX6i (300 dpi) - DP"=IDP,USBPRINT\IntermecPX6i(300)FP7796
+"EasyCoder PX6i (300 dpi) - IPL"=IPL,LPTENUM\IntermecPX6i(300)IPL98C4
+"EasyCoder PX6i (300 dpi) - IPL"=IPL,USBPRINT\IntermecPX6i(300)IPL98C4
+"Intermec 3100"=DPL,LPTENUM\DatamaxAllegro80BF
+"Intermec 3100"=DPL,USBPRINT\DatamaxAllegro80BF
+"Intermec 3400A"=IPL
+"Intermec 3400B"=IPL
+"Intermec 4000 (152 dpi)"=DPL
+"Intermec 4000 (203 dpi)"=DPL,LPTENUM\DatamaxProdigy_Plus3C6C
+"Intermec 4000 (203 dpi)"=DPL,USBPRINT\DatamaxProdigy_Plus3C6C
+"Intermec 4100"=IPL
+"Intermec 4400B"=IPL
+"Intermec 4630"=IPL
+"Intermec 8635"=IPL
+"Intermec 8636"=IPL
+"Intermec 8637"=IPL
+"Intermec 8638"=IPL
+"Intermec 8646"=IPL
+"Intermec PA30 (203 dpi) - DP"=IDP,LPTENUM\IntermecPA30(203)FP9F3D
+"Intermec PA30 (203 dpi) - DP"=IDP,USBPRINT\IntermecPA30(203)FP9F3D
+"Intermec PA30 (203 dpi) - IPL"=IPL,LPTENUM\IntermecPA30(203)IPL276F
+"Intermec PA30 (203 dpi) - IPL"=IPL,USBPRINT\IntermecPA30(203)IPL276F
+"Intermec PA30 (300 dpi) - DP"=IDP,LPTENUM\IntermecPA30(300)FPCBBD
+"Intermec PA30 (300 dpi) - DP"=IDP,USBPRINT\IntermecPA30(300)FPCBBD
+"Intermec PA30 (300 dpi) - IPL"=IPL,LPTENUM\IntermecPA30(300)IPL853A
+"Intermec PA30 (300 dpi) - IPL"=IPL,USBPRINT\IntermecPA30(300)IPL853A
+"Intermec PB20"=NEI
+"Intermec PB21 (203 dpi) - DP"=IDP,USBPRINT\IntermecPB21(203)FPD580
+"Intermec PB21 (203 dpi) - ESC/P"=NEI,USBPRINT\IntermecPB21(203)ESCE4F6
+"Intermec PB21 (203 dpi) - IPL"=IPL,USBPRINT\IntermecPB21(203)IPL56E5
+"Intermec PB22 (203 dpi) - DP"=IDP,USBPRINT\IntermecPB22(203)FP60B8
+"Intermec PB22 (203 dpi) - ESC/P"=NEI,USBPRINT\IntermecPB22(203)ESCB903
+"Intermec PB22 (203 dpi) - IPL"=IPL,USBPRINT\IntermecPB22(203)IPL8651
+"Intermec PB31 (203 dpi) - DP"=IDP,USBPRINT\IntermecPB31(203)FP5C0C
+"Intermec PB31 (203 dpi) - ESC/P"=NEI,USBPRINT\IntermecPB31(203)ESC9F50
+"Intermec PB31 (203 dpi) - IPL"=IPL,USBPRINT\IntermecPB31(203)IPLF36D
+"Intermec PB32 (203 dpi) - DP"=IDP,USBPRINT\IntermecPB32(203)FP48B4
+"Intermec PB32 (203 dpi) - ESC/P"=NEI,USBPRINT\IntermecPB32(203)ESCBADF
+"Intermec PB32 (203 dpi) - IPL"=IPL,USBPRINT\IntermecPB32(203)IPL8379
+"Intermec PB40"=NEI
+"Intermec PB41"=NEI
+"Intermec PB42"=NEI,USBPRINT\IntermecPB42A1D2
+"Intermec PB50 (203 dpi) - DP"=IDP,USBPRINT\IntermecPB50(203)FPF167
+"Intermec PB50 (203 dpi) - ESC/P"=NEI,USBPRINT\IntermecPB50(203)ESCD35D
+"Intermec PB50 (203 dpi) - IPL"=IPL,USBPRINT\IntermecPB50(203)IPL1C81
+"Intermec PB51 (203 dpi) - DP"=IDP,USBPRINT\IntermecPB51(203)FPFC27
+"Intermec PB51 (203 dpi) - ESC/P"=NEI,USBPRINT\IntermecPB51(203)ESC9758
+"Intermec PB51 (203 dpi) - IPL"=IPL,USBPRINT\IntermecPB51(203)IPLEC8D
+"Intermec PC23d (203 dpi) - DP"=IDP,LPTENUM\Intermec_PC23-203-FPBDC6
+"Intermec PC23d (203 dpi) - DP"=IDP,USBPRINT\Intermec_PC23-203-FPBDC6
+"Intermec PC23d (203 dpi) - ESim"=EPL,LPTENUM\Intermec_PC23-203-FPBDC6
+"Intermec PC23d (203 dpi) - ESim"=EPL,USBPRINT\Intermec_PC23-203-FPBDC6
+"Intermec PC23d (203 dpi) - IPL"=IPL,LPTENUM\Intermec_PC23-203-FPBDC6
+"Intermec PC23d (203 dpi) - IPL"=IPL,USBPRINT\Intermec_PC23-203-FPBDC6
+"Intermec PC23d (300 dpi) - DP"=IDP,LPTENUM\Intermec_PC23-300-FP28C7
+"Intermec PC23d (300 dpi) - DP"=IDP,USBPRINT\Intermec_PC23-300-FP28C7
+"Intermec PC23d (300 dpi) - ESim"=EPL,LPTENUM\Intermec_PC23-300-FP28C7
+"Intermec PC23d (300 dpi) - ESim"=EPL,USBPRINT\Intermec_PC23-300-FP28C7
+"Intermec PC23d (300 dpi) - IPL"=IPL,LPTENUM\Intermec_PC23-300-FP28C7
+"Intermec PC23d (300 dpi) - IPL"=IPL,USBPRINT\Intermec_PC23-300-FP28C7
+"Intermec PC43d (203 dpi) - DP"=IDP,LPTENUM\Intermec_PC43d-203-F06E8
+"Intermec PC43d (203 dpi) - DP"=IDP,USBPRINT\Intermec_PC43d-203-F06E8
+"Intermec PC43d (203 dpi) - ESim"=EPL,LPTENUM\Intermec_PC43d-203-F06E8
+"Intermec PC43d (203 dpi) - ESim"=EPL,USBPRINT\Intermec_PC43d-203-F06E8
+"Intermec PC43d (203 dpi) - IPL"=IPL,LPTENUM\Intermec_PC43d-203-F06E8
+"Intermec PC43d (203 dpi) - IPL"=IPL,USBPRINT\Intermec_PC43d-203-F06E8
+"Intermec PC43d (300 dpi) - DP"=IDP,LPTENUM\Intermec_PC43d-300-F93E9
+"Intermec PC43d (300 dpi) - DP"=IDP,USBPRINT\Intermec_PC43d-300-F93E9
+"Intermec PC43d (300 dpi) - ESim"=EPL,LPTENUM\Intermec_PC43d-300-F93E9
+"Intermec PC43d (300 dpi) - ESim"=EPL,USBPRINT\Intermec_PC43d-300-F93E9
+"Intermec PC43d (300 dpi) - IPL"=IPL,LPTENUM\Intermec_PC43d-300-F93E9
+"Intermec PC43d (300 dpi) - IPL"=IPL,USBPRINT\Intermec_PC43d-300-F93E9
+"Intermec PC43t (203 dpi) - DP"=IDP,LPTENUM\Intermec_PC43t-203-FE8E8
+"Intermec PC43t (203 dpi) - DP"=IDP,USBPRINT\Intermec_PC43t-203-FE8E8
+"Intermec PC43t (203 dpi) - ESim"=EPL,LPTENUM\Intermec_PC43t-203-FE8E8
+"Intermec PC43t (203 dpi) - ESim"=EPL,USBPRINT\Intermec_PC43t-203-FE8E8
+"Intermec PC43t (203 dpi) - IPL"=IPL,LPTENUM\Intermec_PC43t-203-FE8E8
+"Intermec PC43t (203 dpi) - IPL"=IPL,USBPRINT\Intermec_PC43t-203-FE8E8
+"Intermec PC43t (300 dpi) - DP"=IDP,LPTENUM\Intermec_PC43t-300-FBD48
+"Intermec PC43t (300 dpi) - DP"=IDP,USBPRINT\Intermec_PC43t-300-FBD48
+"Intermec PC43t (300 dpi) - ESim"=EPL,LPTENUM\Intermec_PC43t-300-FBD48
+"Intermec PC43t (300 dpi) - ESim"=EPL,USBPRINT\Intermec_PC43t-300-FBD48
+"Intermec PC43t (300 dpi) - IPL"=IPL,LPTENUM\Intermec_PC43t-300-FBD48
+"Intermec PC43t (300 dpi) - IPL"=IPL,USBPRINT\Intermec_PC43t-300-FBD48
+"Intermec PD43 (203 dpi) - DP"=IDP,LPTENUM\Intermec_PD43-203-FP255D
+"Intermec PD43 (203 dpi) - DP"=IDP,USBPRINT\Intermec_PD43-203-FP255D
+"Intermec PD43 (203 dpi) - IPL"=IPL,LPTENUM\Intermec_PD43-203-IP0FD5
+"Intermec PD43 (203 dpi) - IPL"=IPL,USBPRINT\Intermec_PD43-203-IP0FD5
+"Intermec PD43 (300 dpi) - DP"=IDP,LPTENUM\Intermec_PD43-300-FP70FD
+"Intermec PD43 (300 dpi) - DP"=IDP,USBPRINT\Intermec_PD43-300-FP70FD
+"Intermec PD43 (300 dpi) - IPL"=IPL,LPTENUM\Intermec_PD43-300-IP7782
+"Intermec PD43 (300 dpi) - IPL"=IPL,USBPRINT\Intermec_PD43-300-IP7782
+"Intermec PD43c (203 dpi) - DP"=IDP,LPTENUM\Intermec_PD43c-203-FCEB3
+"Intermec PD43c (203 dpi) - DP"=IDP,USBPRINT\Intermec_PD43c-203-FCEB3
+"Intermec PD43c (203 dpi) - IPL"=IPL,LPTENUM\Intermec_PD43c-203-I41BE
+"Intermec PD43c (203 dpi) - IPL"=IPL,USBPRINT\Intermec_PD43c-203-I41BE
+"Intermec PD43c (300 dpi) - DP"=IDP,LPTENUM\Intermec_PD43c-300-F5BB2
+"Intermec PD43c (300 dpi) - DP"=IDP,USBPRINT\Intermec_PD43c-300-F5BB2
+"Intermec PD43c (300 dpi) - IPL"=IPL,LPTENUM\Intermec_PD43c-300-I81EA
+"Intermec PD43c (300 dpi) - IPL"=IPL,USBPRINT\Intermec_PD43c-300-I81EA
+"Intermec PF8d"=EPL,LPTENUM\Intermec_PF8d(203)_E2186
+"Intermec PF8d"=EPL,USBPRINT\Intermec_PF8d(203)_E2186
+"Intermec PF8t (203 dpi)"=EPL,LPTENUM\Intermec_PF8t(203)_EE1D0
+"Intermec PF8t (203 dpi)"=EPL,USBPRINT\Intermec_PF8t(203)_EE1D0
+"Intermec PF8t (300 dpi)"=EPL,LPTENUM\Intermec_PF8t(300)_E71EE
+"Intermec PF8t (300 dpi)"=EPL,USBPRINT\Intermec_PF8t(300)_E71EE
+"Intermec PM23c (203 dpi) - DP"=IDP,LPTENUM\Intermec_PM23c-203-F8D5E
+"Intermec PM23c (203 dpi) - DP"=IDP,USBPRINT\Intermec_PM23c-203-F8D5E
+"Intermec PM23c (203 dpi) - IPL"=IPL,LPTENUM\Intermec_PM23c-203-I0E3D
+"Intermec PM23c (203 dpi) - IPL"=IPL,USBPRINT\Intermec_PM23c-203-I0E3D
+"Intermec PM23c (300 dpi) - DP"=IDP,LPTENUM\Intermec_PM23c-300-F185F
+"Intermec PM23c (300 dpi) - DP"=IDP,USBPRINT\Intermec_PM23c-300-F185F
+"Intermec PM23c (300 dpi) - IPL"=IPL,LPTENUM\Intermec_PM23c-300-ICE69
+"Intermec PM23c (300 dpi) - IPL"=IPL,USBPRINT\Intermec_PM23c-300-ICE69
+"Intermec PM23c (406 dpi) - DP"=IDP,LPTENUM\Intermec_PM23c-406-F275E
+"Intermec PM23c (406 dpi) - DP"=IDP,USBPRINT\Intermec_PM23c-406-F275E
+"Intermec PM23c (406 dpi) - IPL"=IPL,LPTENUM\Intermec_PM23c-406-I0E97
+"Intermec PM23c (406 dpi) - IPL"=IPL,USBPRINT\Intermec_PM23c-406-I0E97
+"Intermec PM43 (203 dpi) - DP"=IDP,LPTENUM\Intermec_PM43-203-FP0A8D
+"Intermec PM43 (203 dpi) - DP"=IDP,USBPRINT\Intermec_PM43-203-FP0A8D
+"Intermec PM43 (203 dpi) - IPL"=IPL,LPTENUM\Intermec_PM43-203-IP93FB
+"Intermec PM43 (203 dpi) - IPL"=IPL,USBPRINT\Intermec_PM43-203-IP93FB
+"Intermec PM43 (300 dpi) - DP"=IDP,LPTENUM\Intermec_PM43-300-FP5E0D
+"Intermec PM43 (300 dpi) - DP"=IDP,USBPRINT\Intermec_PM43-300-FP5E0D
+"Intermec PM43 (300 dpi) - IPL"=IPL,LPTENUM\Intermec_PM43-300-IP33AE
+"Intermec PM43 (300 dpi) - IPL"=IPL,USBPRINT\Intermec_PM43-300-IP33AE
+"Intermec PM43 (406 dpi) - DP"=IDP,LPTENUM\Intermec_PM43-406-FPA08D
+"Intermec PM43 (406 dpi) - DP"=IDP,USBPRINT\Intermec_PM43-406-FPA08D
+"Intermec PM43 (406 dpi) - IPL"=IPL,LPTENUM\Intermec_PM43-406-IP9351
+"Intermec PM43 (406 dpi) - IPL"=IPL,USBPRINT\Intermec_PM43-406-IP9351
+"Intermec PM43c (203 dpi) - DP"=IDP,LPTENUM\Intermec_PM43c-203-F529D
+"Intermec PM43c (203 dpi) - DP"=IDP,USBPRINT\Intermec_PM43c-203-F529D
+"Intermec PM43c (203 dpi) - IPL"=IPL,LPTENUM\Intermec_PM43c-203-I5FA2
+"Intermec PM43c (203 dpi) - IPL"=IPL,USBPRINT\Intermec_PM43c-203-I5FA2
+"Intermec PM43c (300 dpi) - DP"=IDP,LPTENUM\Intermec_PM43c-300-FC79C
+"Intermec PM43c (300 dpi) - DP"=IDP,USBPRINT\Intermec_PM43c-300-FC79C
+"Intermec PM43c (300 dpi) - IPL"=IPL,LPTENUM\Intermec_PM43c-300-I9FF6
+"Intermec PM43c (300 dpi) - IPL"=IPL,USBPRINT\Intermec_PM43c-300-I9FF6
+"Intermec PM43c (406 dpi) - DP"=IDP,LPTENUM\Intermec_PM43c-406-FF89D
+"Intermec PM43c (406 dpi) - DP"=IDP,USBPRINT\Intermec_PM43c-406-FF89D
+"Intermec PM43c (406 dpi) - IPL"=IPL,LPTENUM\Intermec_PM43c-406-I5F08
+"Intermec PM43c (406 dpi) - IPL"=IPL,USBPRINT\Intermec_PM43c-406-I5F08
+"Intermec PR2"=NEI,USBPRINT\Intermec_PR2-203-ESCDB26
+"Intermec PR3"=NEI,USBPRINT\Intermec_PR3-203-ESC1E77
+"Intermec PW50 (203 dpi) - ESC/P"=NEI,USBPRINT\IntermecPW50(203)ESC266E
+
+[FILES_BASE_COMMON]
+ss#base_2017.1.0.0.ddz
+
+[FILES_BASE_PLATFORM]
+ss#base_2017.1.0.0.cab
+Seagull_V3_NetMonDispatcher.dll
+Seagull_V3_PrintDispatcher.dll
+Seagull_V3_ConfigDispatcher.dll
+
+[CPL]
+DriverFile=Seagull_V3_PrintDispatcher.dll
+ConfigFile=Seagull_V3_ConfigDispatcher.dll
+DataFile=cplSS_2017.1.0.0.ini
+HelpFile=cplSSenu_2017.1.0.0.chm
+LanguageMonitor="Seagull V3 Network Monitor,Seagull_V3_NetMonDispatcher.dll"
+CopyFiles=FILES_BASE_COMMON,FILES_BASE_PLATFORM,FILES_CPL_COMMON,FILES_CPL_PLATFORM
+
+[DPL]
+DriverFile=Seagull_V3_PrintDispatcher.dll
+ConfigFile=Seagull_V3_ConfigDispatcher.dll
+DataFile=dplSS_2017.1.0.0.ini
+HelpFile=dplSSenu_2017.1.0.0.chm
+LanguageMonitor="Seagull V3 Network Monitor,Seagull_V3_NetMonDispatcher.dll"
+CopyFiles=FILES_BASE_COMMON,FILES_BASE_PLATFORM,FILES_DPL_COMMON,FILES_DPL_PLATFORM
+
+[EPL]
+DriverFile=Seagull_V3_PrintDispatcher.dll
+ConfigFile=Seagull_V3_ConfigDispatcher.dll
+DataFile=eplSS_2017.1.0.0.ini
+HelpFile=eplSSenu_2017.1.0.0.chm
+LanguageMonitor="Seagull V3 Network Monitor,Seagull_V3_NetMonDispatcher.dll"
+CopyFiles=FILES_BASE_COMMON,FILES_BASE_PLATFORM,FILES_EPL_COMMON,FILES_EPL_PLATFORM
+
+[FILES_CPL_COMMON]
+ss#cpl_2017.1.0.0.ddz
+Defaults[SS]_2017.1.0.0.sds
+cplSSenu_2017.1.0.0.chm
+cplSS_2017.1.0.0.ini
+
+[FILES_CPL_PLATFORM]
+ss#cpl_2017.1.0.0.cab
+
+[FILES_DPL_COMMON]
+ss#dpl_2017.1.0.0.ddz
+Defaults[SS]_2017.1.0.0.sds
+dplSSenu_2017.1.0.0.chm
+dplSS_2017.1.0.0.ini
+
+[FILES_DPL_PLATFORM]
+ss#dpl_2017.1.0.0.cab
+
+[FILES_EPL_COMMON]
+ss#epl_2017.1.0.0.ddz
+Defaults[SS]_2017.1.0.0.sds
+eplSSenu_2017.1.0.0.chm
+eplSS_2017.1.0.0.ini
+
+[FILES_EPL_PLATFORM]
+ss#epl_2017.1.0.0.cab
+
+[FILES_IDP_COMMON]
+ss#idp_2017.1.0.0.ddz
+Defaults[SS]_2017.1.0.0.sds
+idpSSenu_2017.1.0.0.chm
+idpSS_2017.1.0.0.ini
+
+[FILES_IDP_PLATFORM]
+ss#idp_2017.1.0.0.cab
+
+[FILES_IPL_COMMON]
+ss#ipl_2017.1.0.0.ddz
+Defaults[SS]_2017.1.0.0.sds
+iplSSenu_2017.1.0.0.chm
+iplSS_2017.1.0.0.ini
+
+[FILES_IPL_PLATFORM]
+ss#ipl_2017.1.0.0.cab
+
+[FILES_NEI_COMMON]
+ss#nei_2017.1.0.0.ddz
+Defaults[SS]_2017.1.0.0.sds
+neiSSenu_2017.1.0.0.chm
+neiSS_2017.1.0.0.ini
+
+[FILES_NEI_PLATFORM]
+ss#nei_2017.1.0.0.cab
+
+[IDP]
+DriverFile=Seagull_V3_PrintDispatcher.dll
+ConfigFile=Seagull_V3_ConfigDispatcher.dll
+DataFile=idpSS_2017.1.0.0.ini
+HelpFile=idpSSenu_2017.1.0.0.chm
+LanguageMonitor="Seagull V3 Network Monitor,Seagull_V3_NetMonDispatcher.dll"
+CopyFiles=FILES_BASE_COMMON,FILES_BASE_PLATFORM,FILES_IDP_COMMON,FILES_IDP_PLATFORM
+
+[IPL]
+DriverFile=Seagull_V3_PrintDispatcher.dll
+ConfigFile=Seagull_V3_ConfigDispatcher.dll
+DataFile=iplSS_2017.1.0.0.ini
+HelpFile=iplSSenu_2017.1.0.0.chm
+LanguageMonitor="Seagull V3 Network Monitor,Seagull_V3_NetMonDispatcher.dll"
+CopyFiles=FILES_BASE_COMMON,FILES_BASE_PLATFORM,FILES_IPL_COMMON,FILES_IPL_PLATFORM
+
+[NEI]
+DriverFile=Seagull_V3_PrintDispatcher.dll
+ConfigFile=Seagull_V3_ConfigDispatcher.dll
+DataFile=neiSS_2017.1.0.0.ini
+HelpFile=neiSSenu_2017.1.0.0.chm
+LanguageMonitor="Seagull V3 Network Monitor,Seagull_V3_NetMonDispatcher.dll"
+CopyFiles=FILES_BASE_COMMON,FILES_BASE_PLATFORM,FILES_NEI_COMMON,FILES_NEI_PLATFORM
+

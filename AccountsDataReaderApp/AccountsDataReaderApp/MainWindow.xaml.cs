@@ -29,15 +29,21 @@ namespace WpfApplication1
 
         private void CreateDynamicDataTable()
         {
-            string constr1 = @"Provider=vfpoledb;Data Source=\\172.20.10.25\Server VFP Static and Dynamic\data;Extended Properties=dBASE III;";
+//            string constr1 = @"Provider=vfpoledb;Data Source=\\172.20.10.25\Server VFP Static and Dynamic\data;Extended Properties=dBASE III;";
+            string constr1 = @"Provider=vfpoledb;Data Source=C:\Globeweigh\Clonakilty\OperaData;Extended Properties=dBASE III;";
             using (OleDbConnection con = new OleDbConnection(constr1))
             {
                 con.Open();
                 //SalesOrders
-                //               OleDbCommand command =new OleDbCommand("Select * from 1_ITRAN.DBF where it_doc = '" + "DOC09541" + "'", con);
+//                                               OleDbCommand command =new OleDbCommand("Select * from 1_ITRAN.DBF where it_doc = '" + "DOC10956" + "'", con);
                 //                OleDbCommand command = new OleDbCommand("Select * from 1_ITRAN.DBF where it_stock = '" + "B98" + "'", con);
-//                                OleDbCommand command = new OleDbCommand(@"Select * from 1_IHEAD.DBF where ih_docstat = 'O' and ih_deliv = ''", con);
-                OleDbCommand command = new OleDbCommand(@"Select * from 1_IHEAD.DBF where ih_account = '0374'", con);
+                //                                OleDbCommand command = new OleDbCommand(@"Select * from 1_IHEAD.DBF where ih_docstat = 'O' and ih_deliv = ''", con);
+                //                OleDbCommand command = new OleDbCommand(@"Select * from 1_IHEAD.DBF where ih_doc = 'DOC11036'", con);
+                //                OleDbCommand command = new OleDbCommand(@"Select * from 1_IHEAD.DBF where ih_docstat = 'O' and ih_deliv = ''", con);
+                                OleDbCommand command = new OleDbCommand(@"Select * from 1_CNAME.DBF ", con);
+
+
+
 
                 OleDbDataReader reader = command.ExecuteReader();
                 DataTable dataTable = new DataTable();

@@ -1,0 +1,138 @@
+[Version]
+Signature="$Windows NT$"
+Class=Printer
+ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
+Provider="Seagull"
+DriverVer=10/19/2017,2017.1.0.0
+CatalogFile=Honeywell.cat
+DriverIsolation=2
+
+[PrinterPackageInstallation.x86]
+PackageAware=TRUE
+
+[PrinterPackageInstallation.amd64]
+PackageAware=TRUE
+
+[SourceDisksNames]
+1="Seagull Drivers Disk",,,\Common
+2="Seagull Drivers Disk",,,\Common
+
+[SourceDisksNames.amd64]
+2="Seagull Drivers Disk",,,\x64
+
+[SourceDisksNames.x86]
+2="Seagull Drivers Disk",,,\Win32
+
+[SourceDisksFiles]
+Defaults[SS]_2017.1.0.0.sds=1
+eplSS_2017.1.0.0.ini=1
+eplSSenu_2017.1.0.0.chm=1
+idpSS_2017.1.0.0.ini=1
+idpSSenu_2017.1.0.0.chm=1
+Seagull_V3_ConfigDispatcher.dll=2
+Seagull_V3_NetMonDispatcher.dll=2
+Seagull_V3_PrintDispatcher.dll=2
+ss#base_2017.1.0.0.cab=2
+ss#base_2017.1.0.0.ddz=1
+ss#epl_2017.1.0.0.cab=2
+ss#epl_2017.1.0.0.ddz=1
+ss#idp_2017.1.0.0.cab=2
+ss#idp_2017.1.0.0.ddz=1
+
+[DestinationDirs]
+DefaultDestDir=66000
+
+[Manufacturer]
+"Honeywell"=MODEL_HONEYWELL,NTamd64
+
+[MODEL_HONEYWELL]
+"Honeywell OD800 (203 dpi)"=IDP,USBPRINT\Honeywell_OD800-203-A2B4
+"Honeywell OD800 (203 dpi)"=IDP,USBPRINT\Honeywell_OD800-203-42E9
+"Honeywell OT800 (203 dpi)"=IDP,LPTENUM\Honeywell_OT800-203-02E1
+"Honeywell OT800 (203 dpi)"=IDP,USBPRINT\Honeywell_OT800-203-02E1
+"Honeywell OT800 (203 dpi)"=IDP,LPTENUM\Honeywell_OT800-203-68D6
+"Honeywell OT800 (203 dpi)"=IDP,USBPRINT\Honeywell_OT800-203-68D6
+"Honeywell PC42d (203 dpi)"=IDP,USBPRINT\Honeywell_PC42d-203-ADA6
+"Honeywell PC42d (203 dpi)"=IDP,USBPRINT\Honeywell_PC42d-203-E4A5
+"Honeywell PC42t (203 dpi) - DP"=IDP,LPTENUM\Honeywell_PC42t-203-A1A7
+"Honeywell PC42t (203 dpi) - DP"=IDP,USBPRINT\Honeywell_PC42t-203-A1A7
+"Honeywell PC42t (203 dpi) - ESim"=EPL,LPTENUM\Honeywell_PC42t-203-71A4
+"Honeywell PC42t (203 dpi) - ESim"=EPL,USBPRINT\Honeywell_PC42t-203-71A4
+"Honeywell PC42t plus (203 dpi)"=IDP,LPTENUM\Honeywell_PC42tp-20394F6
+"Honeywell PC42t plus (203 dpi)"=IDP,USBPRINT\Honeywell_PC42tp-20394F6
+"Honeywell PC42t plus (203 dpi)"=IDP,LPTENUM\Honeywell_PC42tp-203F659
+"Honeywell PC42t plus (203 dpi)"=IDP,USBPRINT\Honeywell_PC42tp-203F659
+"Honeywell PM42 (203 dpi) - DP"=IDP,LPTENUM\Honeywell_PM42-203-FC56F
+"Honeywell PM42 (203 dpi) - DP"=IDP,USBPRINT\Honeywell_PM42-203-FC56F
+"Honeywell PM42 (300 dpi) - DP"=IDP,LPTENUM\Honeywell_PM42-300-F90CF
+"Honeywell PM42 (300 dpi) - DP"=IDP,USBPRINT\Honeywell_PM42-300-F90CF
+"Honeywell PM42 (406 dpi) - DP"=IDP,LPTENUM\Honeywell_PM42-406-FAFCE
+"Honeywell PM42 (406 dpi) - DP"=IDP,USBPRINT\Honeywell_PM42-406-FAFCE
+
+[MODEL_HONEYWELL.NTamd64]
+"Honeywell OD800 (203 dpi)"=IDP,USBPRINT\Honeywell_OD800-203-A2B4
+"Honeywell OD800 (203 dpi)"=IDP,USBPRINT\Honeywell_OD800-203-42E9
+"Honeywell OT800 (203 dpi)"=IDP,LPTENUM\Honeywell_OT800-203-02E1
+"Honeywell OT800 (203 dpi)"=IDP,USBPRINT\Honeywell_OT800-203-02E1
+"Honeywell OT800 (203 dpi)"=IDP,LPTENUM\Honeywell_OT800-203-68D6
+"Honeywell OT800 (203 dpi)"=IDP,USBPRINT\Honeywell_OT800-203-68D6
+"Honeywell PC42d (203 dpi)"=IDP,USBPRINT\Honeywell_PC42d-203-ADA6
+"Honeywell PC42d (203 dpi)"=IDP,USBPRINT\Honeywell_PC42d-203-E4A5
+"Honeywell PC42t (203 dpi) - DP"=IDP,LPTENUM\Honeywell_PC42t-203-A1A7
+"Honeywell PC42t (203 dpi) - DP"=IDP,USBPRINT\Honeywell_PC42t-203-A1A7
+"Honeywell PC42t (203 dpi) - ESim"=EPL,LPTENUM\Honeywell_PC42t-203-71A4
+"Honeywell PC42t (203 dpi) - ESim"=EPL,USBPRINT\Honeywell_PC42t-203-71A4
+"Honeywell PC42t plus (203 dpi)"=IDP,LPTENUM\Honeywell_PC42tp-20394F6
+"Honeywell PC42t plus (203 dpi)"=IDP,USBPRINT\Honeywell_PC42tp-20394F6
+"Honeywell PC42t plus (203 dpi)"=IDP,LPTENUM\Honeywell_PC42tp-203F659
+"Honeywell PC42t plus (203 dpi)"=IDP,USBPRINT\Honeywell_PC42tp-203F659
+"Honeywell PM42 (203 dpi) - DP"=IDP,LPTENUM\Honeywell_PM42-203-FC56F
+"Honeywell PM42 (203 dpi) - DP"=IDP,USBPRINT\Honeywell_PM42-203-FC56F
+"Honeywell PM42 (300 dpi) - DP"=IDP,LPTENUM\Honeywell_PM42-300-F90CF
+"Honeywell PM42 (300 dpi) - DP"=IDP,USBPRINT\Honeywell_PM42-300-F90CF
+"Honeywell PM42 (406 dpi) - DP"=IDP,LPTENUM\Honeywell_PM42-406-FAFCE
+"Honeywell PM42 (406 dpi) - DP"=IDP,USBPRINT\Honeywell_PM42-406-FAFCE
+
+[FILES_BASE_COMMON]
+ss#base_2017.1.0.0.ddz
+
+[FILES_BASE_PLATFORM]
+ss#base_2017.1.0.0.cab
+Seagull_V3_NetMonDispatcher.dll
+Seagull_V3_PrintDispatcher.dll
+Seagull_V3_ConfigDispatcher.dll
+
+[EPL]
+DriverFile=Seagull_V3_PrintDispatcher.dll
+ConfigFile=Seagull_V3_ConfigDispatcher.dll
+DataFile=eplSS_2017.1.0.0.ini
+HelpFile=eplSSenu_2017.1.0.0.chm
+LanguageMonitor="Seagull V3 Network Monitor,Seagull_V3_NetMonDispatcher.dll"
+CopyFiles=FILES_BASE_COMMON,FILES_BASE_PLATFORM,FILES_EPL_COMMON,FILES_EPL_PLATFORM
+
+[FILES_EPL_COMMON]
+ss#epl_2017.1.0.0.ddz
+Defaults[SS]_2017.1.0.0.sds
+eplSSenu_2017.1.0.0.chm
+eplSS_2017.1.0.0.ini
+
+[FILES_EPL_PLATFORM]
+ss#epl_2017.1.0.0.cab
+
+[FILES_IDP_COMMON]
+ss#idp_2017.1.0.0.ddz
+Defaults[SS]_2017.1.0.0.sds
+idpSSenu_2017.1.0.0.chm
+idpSS_2017.1.0.0.ini
+
+[FILES_IDP_PLATFORM]
+ss#idp_2017.1.0.0.cab
+
+[IDP]
+DriverFile=Seagull_V3_PrintDispatcher.dll
+ConfigFile=Seagull_V3_ConfigDispatcher.dll
+DataFile=idpSS_2017.1.0.0.ini
+HelpFile=idpSSenu_2017.1.0.0.chm
+LanguageMonitor="Seagull V3 Network Monitor,Seagull_V3_NetMonDispatcher.dll"
+CopyFiles=FILES_BASE_COMMON,FILES_BASE_PLATFORM,FILES_IDP_COMMON,FILES_IDP_PLATFORM
+

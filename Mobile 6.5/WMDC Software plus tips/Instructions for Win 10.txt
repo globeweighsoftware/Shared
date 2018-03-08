@@ -1,0 +1,4 @@
+after install
+
+find the 2 services related to Windows Mobile 2003
+Change both Log On to "Local System" and restart
