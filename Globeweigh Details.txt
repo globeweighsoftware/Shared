@@ -4,19 +4,19 @@ Draper credentials
 user: neil.hobson
 pass: Password1
 
+Globeweigh-Private WIFI
+pass: Globe!123@ 
+
 Stephen Laptop Password:
 Spike235
-
-Attracta's TeamviewDetails (Clonakility)
-256279375
-aeh826
 
 Globeweigh Cork Wifi
 p9bqxj9c
 
-Eaomon Greenhill
-086 825 7389
-
+Stephen Credit Card:
+5473541000286757
+08/18
+264
 
 
 
