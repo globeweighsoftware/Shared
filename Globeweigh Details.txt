@@ -13,10 +13,9 @@ Spike235
 Globeweigh Cork Wifi
 p9bqxj9c
 
-Stephen Credit Card:
-5473541000286757
-08/18
-264
+
+get computer name CMD
+nbtstat -a 192.xxx.xx.xxx
 
 
 
@@ -28,4 +27,11 @@ Clickonce Shortcut location
 
 C:\Users\Globeweigh\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 
+
+
+FRANKSCC
+
+5473541000415356
+08/18
+634
 

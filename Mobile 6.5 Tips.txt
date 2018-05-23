@@ -1,3 +1,0 @@
-How to get the emulator working with SQL
-
-http://netcf2.blogspot.co.uk/2005/12/accessing-sql-server-express-from.html
