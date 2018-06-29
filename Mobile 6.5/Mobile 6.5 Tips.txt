@@ -1,3 +1,11 @@
 How to get the emulator working with SQL
 
 http://netcf2.blogspot.co.uk/2005/12/accessing-sql-server-express-from.html
+
+
+How to Get WDMC working with Windows 10
+
+* Check if the .NET Framework 3.5 (includes .NET 2.0 and 3.0)” option is checked in Windows On/Off features
+* Check Services are Log On "Local System Account"
+	- Windows Mobile-2003-based device connectivity
+	- Windows Mobile-based device connectivity
