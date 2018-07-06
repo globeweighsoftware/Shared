@@ -2,6 +2,8 @@ How to get the emulator working with SQL
 
 http://netcf2.blogspot.co.uk/2005/12/accessing-sql-server-express-from.html
 
+* Remember to Cradle the emulator and make sure it has network connectivity
+
 
 How to Get WDMC working with Windows 10
 
