@@ -1,0 +1,5 @@
+Copy Cab file to c:\
+
+Admin CDM:
+
+Dism.exe /online /enable-feature /featurename:NetFX3 /source:C:\ /LimitAccess
