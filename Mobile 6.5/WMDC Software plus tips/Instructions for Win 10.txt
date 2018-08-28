@@ -1,4 +1,10 @@
-after install
+How to Get WDMC working with Windows 10
 
-find the 2 services related to Windows Mobile 2003
-Change both Log On to "Local System" and restart
+* Check if the .NET Framework 3.5 (includes .NET 2.0 and 3.0)” option is checked in Windows On/Off features
+* Check Services are Log On "Local System Account"
+	- Windows Mobile-2003-based device connectivity
+	- Windows Mobile-based device connectivity
+
+
+
+run the batch file as ADMIN

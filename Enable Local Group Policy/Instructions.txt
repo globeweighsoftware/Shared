@@ -1,0 +1,14 @@
+
+run the batch file as ADMIN
+
+
+Within the latest “Windows 10 Fall Creators Update” the Guest access in SMB2 is disabled by default.
+You can change this setting within your group policy settings.
+Right click the Windows Icon at the bottom left of the task bar, or select the windows key + r
+Within the run box, type “gpedit.msc”
+Within the local Group Policy Editor, select “Administrative Templates”
+Select “Network”
+Select ”Lanman Workstation”
+Double click “Enable Insecure guest logons” option
+Tick the “Enable” option
+Select OK
