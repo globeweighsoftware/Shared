@@ -71,41 +71,6 @@ net users guest /active:yes
 
 
 
-#Disable Firewall
-Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
-
-
-#Enable TCP/IP Protocols
-
-$serverInstance = 'SQLEXPRESS'
-
-Import-Module "sqlps"
-$smo = 'Microsoft.SqlServer.Management.Smo.'
-$wmi = new-object ($smo + 'Wmi.ManagedComputer').
-
-# List the object properties, including the instance names.
-$Wmi
-
-
-
-# Enable the TCP protocol on the default instance.
-$uri = "ManagedComputer[@Name='" + (get-item env:\computername).Value + "']/ServerInstance[@Name='$serverInstance']/ServerProtocol[@Name='Tcp']"
-$Tcp = $wmi.GetSmoObject($uri)
-$Tcp.IsEnabled = $true
-$Tcp.Alter()
-$Tcp
-
-
-
-New-NetFirewallRule -DisplayName “SQL Server EXE” -Direction Inbound -Program "C:\Program Files\Microsoft SQL Server\MSSQL14.SQLEXPRESS\MSSQL\Binn\sqlservr.exe" -Action allow 
-New-NetFirewallRule -DisplayName “SQL Server Browser” -Direction Inbound -Program "C:\Program Files (x86)\Microsoft SQL Server\90\Shared\sqlbrowser.exe" -Action allow 
-
-
-
-
-
-
-
 #Disable Action Center
 
 
