@@ -13,6 +13,9 @@ Spike235
 Globeweigh Cork Wifi
 p9bqxj9c
 
+GlobeweighWhiteBox
+bizerba33470
+
 
 get computer name CMD
 nbtstat -a 192.xxx.xx.xxx
@@ -33,6 +36,8 @@ Try Stephens card:
 5473 5410 0047 3272
 CSV: 436
 Expiry: 08/21 
+
+
 
 
 
