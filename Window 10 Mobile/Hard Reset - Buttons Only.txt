@@ -1,0 +1,6 @@
+https://support.microsoft.com/en-us/help/10768/windows-10-mobile-reset-my-phone
+
+Reset an unresponsive phone
+Press and hold the Volume down and Power buttons at the same time until you feel a vibration (about 10 to 15 seconds). 
+When you feel the vibration, release the buttons, and then immediately press and hold the Volume down button until you see a large exclamation mark. 
+Once the exclamation mark appears, press the following four buttons in this order: Volume up, Volume down, Power, Volume down. Your phone should now reset and restart itself. (It might take a while for the reset to finish.)
