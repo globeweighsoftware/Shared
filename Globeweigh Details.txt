@@ -1,3 +1,5 @@
+ButternutSquash09
+
 \\Draper2014\f\Backup Files\Data\Files\Hobson\
 
 Draper credentials
@@ -37,6 +39,12 @@ Try Stephens card:
 CSV: 436
 Expiry: 08/21 
 
+Franks Card
+
+
+5473 5410 0054 3546
+08/21
+Last 3 digits 425
 
 
 
