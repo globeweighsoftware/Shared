@@ -21,9 +21,9 @@ namespace WpfApplication1
 
             //                        GetListOfTables();
             //            ExportToExcel();
-            //                                    GetFieldNamesFromTable();
+            GetFieldNamesFromTable();
 
-            CreateDynamicDataTable();
+            //            CreateDynamicDataTable();
 
         }
 
@@ -92,12 +92,12 @@ namespace WpfApplication1
             DataTable schemaTable;
             OleDbDataReader myReader;
 
-            cn.ConnectionString = @"Provider=vfpoledb;Data Source=C:\Globeweigh\Clonakilty\OperaData;Extended Properties=dBASE III;";
-            //            cn.ConnectionString = @"Provider=vfpoledb;Data Source=c:\neil\McCormacks;Extended Properties=dBASE III;";
+            //            cn.ConnectionString = @"Provider=vfpoledb;Data Source=C:\Globeweigh\Clonakilty\OperaData;Extended Properties=dBASE III;";
+            cn.ConnectionString = @"Provider=vfpoledb;Data Source=D:\Github\McCormacks\trunk\Documents;Extended Properties=dBASE III;";
             cn.Open();
 
             cmd.Connection = cn;
-            cmd.CommandText = "Select * from 1_ITRAN.DBF";
+            cmd.CommandText = @"Select * from SORDERS.DBF Where statcode = 'A'";
             myReader = cmd.ExecuteReader(CommandBehavior.KeyInfo);
 
             //Retrieve column schema into a DataTable.
