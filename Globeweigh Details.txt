@@ -7,7 +7,7 @@ user: neil.hobson
 pass: Password1
 
 Globeweigh-Private WIFI
-pass: Globe!123@ 
+pass: Globe!1234
 
 Stephen Laptop Password:
 Spike235
