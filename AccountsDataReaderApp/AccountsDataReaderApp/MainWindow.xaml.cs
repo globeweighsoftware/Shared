@@ -93,11 +93,11 @@ namespace WpfApplication1
             OleDbDataReader myReader;
 
             //            cn.ConnectionString = @"Provider=vfpoledb;Data Source=C:\Globeweigh\Clonakilty\OperaData;Extended Properties=dBASE III;";
-            cn.ConnectionString = @"Provider=vfpoledb;Data Source=D:\Github\McCormacks\trunk\Documents;Extended Properties=dBASE III;";
+            cn.ConnectionString = @"Provider=vfpoledb;Data Source=D:\Github\McCormacks\trunk\Documents\IntactData;Extended Properties=dBASE III;";
             cn.Open();
 
             cmd.Connection = cn;
-            cmd.CommandText = @"Select * from SORDERS.DBF Where statcode = 'A'";
+            cmd.CommandText = @"Select * from SORDITEM.DBF";
             myReader = cmd.ExecuteReader(CommandBehavior.KeyInfo);
 
             //Retrieve column schema into a DataTable.
