@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Common;
+using System.Data.Odbc;
 using System.Data.OleDb;
 using System.IO;
 using System.Linq;
@@ -21,42 +22,43 @@ namespace WpfApplication1
 
             //                        GetListOfTables();
             //            ExportToExcel();
-            GetFieldNamesFromTable();
+            //            GetFieldNamesFromTable();
 
-            //            CreateDynamicDataTable();
+            CreateDynamicDataTable();
 
         }
 
         private void CreateDynamicDataTable()
         {
-            //            string constr1 = @"Provider=vfpoledb;Data Source=\\172.20.10.25\Server VFP Static and Dynamic\data;Extended Properties=dBASE III;";
-            string constr1 = @"Provider=vfpoledb;Data Source=C:\Globeweigh\OperaData;Extended Properties=dBASE III;";
-            using (OleDbConnection con = new OleDbConnection(constr1))
+            string constr2 = @"Provider=vfpoledb;Data Source=D:\Github\McCormacks\trunk\Documents\IntactData;Collating Sequence=machine;";
+            string constr1 = @"Provider=vfpoledb;Data Source=D:\Github\McCormacks\trunk\Documents\IntactData;Extended Properties=dBASE III;";
+            using (OleDbConnection con = new OleDbConnection(constr2))
             {
                 con.Open();
-
-
-                //Cust Pricing
-                //                OleDbCommand command = new OleDbCommand("Select * from  1_CDETL.DBF", con);
-                //Products
-                //                                OleDbCommand command = new OleDbCommand("Select * from 1_CNAME.DBF", con);
-                //Customers
-                //                                OleDbCommand command =new OleDbCommand("Select * from 1_SNAME.DBF WHERE sn_dormant = 0", con);
-                //
-                OleDbCommand command = new OleDbCommand("Select * from  1_STERMS.DBF", con);
-
-
-
+                OleDbCommand command = new OleDbCommand("Select * from  ITEMS.DBF", con);
                 OleDbDataReader reader = command.ExecuteReader();
                 DataTable dataTable = new DataTable();
                 dataTable.Load(reader);
-
                 DataGrid.ItemsSource = dataTable.DefaultView;
-
             }
 
+            string constr = @"Driver={Microsoft dBASE Driver (*.dbf)};DriverID=277;Dbq=D:\Github\McCormacks\trunk\Documents\IntactData;";
+            using (OdbcConnection con = new OdbcConnection(constr))
+            {
+                con.Open();
+                // OleDbCommand command = new OleDbCommand(@"Select * from 1_IHEAD.DBF where ih_date >= DATE(" + dateFrom.ToString("yyyy,MM,dd") + ")", con);
+                //                OleDbCommand command = new OleDbCommand(@"Select * from 1_IHEAD.DBF where ih_docstat = 'O' and ih_deliv = ''", con);
 
+
+                OdbcCommand command = new OdbcCommand("Select * from  ITEMS.DBF", con);
+                OdbcDataReader reader = command.ExecuteReader();
+                DataTable dataTable = new DataTable();
+                dataTable.Load(reader);
+                DataGrid.ItemsSource = dataTable.DefaultView;
+                con.Close();
+            }
         }
+
 
         private void GetListOfTables()
         {
